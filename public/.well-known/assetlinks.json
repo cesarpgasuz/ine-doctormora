@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.vercel.ine_doctormora.twa",
+        "sha256_cert_fingerprints":
+          ["7A:ED:FC:3D:46:34:AE:78:24:FA:1A:FC:6D:E0:77:A9:32:AC:39:20:E3:95:7B:A2:9E:9F:81:6A:68:35:12:56"]
+      }
+    }
+  ]
