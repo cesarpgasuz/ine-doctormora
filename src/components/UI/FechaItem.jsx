@@ -5,6 +5,8 @@ const FechaItem = ({ day }) => {
 
     const fechaActual = new Date()
 
+    fechaActual.setHours(0,0,0,0)
+
 
     return (
         <div className="border border-slate-400 px-6 py-4">
