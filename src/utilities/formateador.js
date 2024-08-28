@@ -20,5 +20,6 @@ export function formatearFecha(fecha){
 export function convertirFecha(fecha){
     const [mes, dia, anioCorto] = fecha.split('/').map(Number);
     const anio = anioCorto < 100 ? 2000 + anioCorto: anioCorto;
-    return new Date(anio,mes-1,dia)
+    // Establece la hora a las 4:00 PM para la comparación
+    return new Date(anio,mes-1,dia, 16,0,0) // 16:00:00 es 4:00 PM
 }
