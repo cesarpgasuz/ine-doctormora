@@ -5,7 +5,7 @@ const FechaItem = ({ day }) => {
 
     const fechaActual = new Date()
 
-    fechaActual.setHours(0,0,0,0)
+    // fechaActual.setHours(0,0,0,0)
 
 
     return (
